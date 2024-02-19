@@ -1,0 +1,8 @@
+[package]
+name = "deraster"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gdal            = { version = "0.16", features = ["array", "bindgen"] }
+rasterh3        = { version = "0.6", features = ["rayon"] }
